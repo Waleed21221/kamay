@@ -1,0 +1,3 @@
+
+* upload vendor file
+* in CMD (php artisan key:generate )
