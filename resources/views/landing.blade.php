@@ -10,7 +10,7 @@
                         Dash<span class="text-primary">mix</span> <span class="font-w300">+ Laravel</span>
                     </h1>
                     <h2 class="h3 font-w300 text-muted mb-5 invisible" data-toggle="appear" data-timeout="150">
-                        Welcome to the starter kit! Build something amazing!
+                       <!--  Welcome to --> the starter kit! Build something amazing!
                     </h2>
                     <span class="m-2 d-inline-block invisible" data-toggle="appear" data-timeout="300">
                         <a class="btn btn-hero-success" href="/dashboard">
