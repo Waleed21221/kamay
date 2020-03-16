@@ -265,7 +265,7 @@
                                 <span class="text-white-75">D</span><span class="text-white">x</span>
                             </span>
                             <span class="smini-hidden">
-                                <span class="text-white-75">Dash</span><span class="text-white">mix</span>
+                                <!-- <span class="text-white-75">Dash</span> --><span class="text-white">KAMAY</span>
                             </span>
                         </a>
                         <!-- END Logo -->
@@ -275,9 +275,9 @@
                             <!-- Toggle Sidebar Style -->
                             <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
                             <!-- Class Toggle, functionality initialized in Helpers.coreToggleClass() -->
-                            <a class="js-class-toggle text-white-75" data-target="#sidebar-style-toggler" data-class="fa-toggle-off fa-toggle-on" data-toggle="layout" data-action="sidebar_style_toggle" href="javascript:void(0)">
+                           <!--  <a class="js-class-toggle text-white-75" data-target="#sidebar-style-toggler" data-class="fa-toggle-off fa-toggle-on" data-toggle="layout" data-action="sidebar_style_toggle" href="javascript:void(0)">
                                 <i class="fa fa-toggle-off" id="sidebar-style-toggler"></i>
-                            </a>
+                            </a> -->
                             <!-- END Toggle Sidebar Style -->
 
                             <!-- Close Sidebar, Visible only on mobile screens -->
@@ -299,31 +299,31 @@
                             <a class="nav-main-link{{ request()->is('dashboard') ? ' active' : '' }}" href="/dashboard">
                                 <i class="nav-main-link-icon si si-cursor"></i>
                                 <span class="nav-main-link-name">Dashboard</span>
-                                <span class="nav-main-link-badge badge badge-pill badge-success">5</span>
+                                <!-- <span class="nav-main-link-badge badge badge-pill badge-success">5</span> -->
                             </a>
                         </li>
                         <li class="nav-main-heading">Various</li>
                         <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
                                 <i class="nav-main-link-icon si si-bulb"></i>
-                                <span class="nav-main-link-name">Examples</span>
+                                <span class="nav-main-link-name">KAmay Supervisor</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
                                     <a class="nav-main-link{{ request()->is('examples/plugin-helper') ? ' active' : '' }}" href="/examples/plugin-helper">
-                                        <span class="nav-main-link-name">Plugin with JS Helper</span>
+                                        <span class="nav-main-link-name">Add Supervisor</span>
                                     </a>
                                 </li>
                                 <li class="nav-main-item">
                                     <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
-                                        <span class="nav-main-link-name">Plugin with JS Init</span>
+                                        <span class="nav-main-link-name">List Supervisors</span>
                                     </a>
                                 </li>
-                                <li class="nav-main-item">
+                                <!-- <li class="nav-main-item">
                                     <a class="nav-main-link{{ request()->is('examples/blank') ? ' active' : '' }}" href="/examples/blank">
                                         <span class="nav-main-link-name">Blank</span>
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li class="nav-main-heading">More</li>
