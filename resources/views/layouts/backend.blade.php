@@ -302,11 +302,11 @@
                                 <!-- <span class="nav-main-link-badge badge badge-pill badge-success">5</span> -->
                             </a>
                         </li>
-                        <li class="nav-main-heading">Various</li>
+                        <li class="nav-main-heading">Pages</li>
                         <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
                             <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
                                 <i class="nav-main-link-icon si si-bulb"></i>
-                                <span class="nav-main-link-name">KAmay Supervisor</span>
+                                <span class="nav-main-link-name">Kamay Supervisor</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
@@ -319,11 +319,25 @@
                                         <span class="nav-main-link-name">List Supervisors</span>
                                     </a>
                                 </li>
-                                <!-- <li class="nav-main-item">
-                                    <a class="nav-main-link{{ request()->is('examples/blank') ? ' active' : '' }}" href="/examples/blank">
-                                        <span class="nav-main-link-name">Blank</span>
+                            </ul>
+                        </li>
+
+                        <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
+                                <i class="nav-main-link-icon si si-bulb"></i>
+                                <span class="nav-main-link-name">Kamay Worker</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-helper') ? ' active' : '' }}" href="/examples/plugin-helper">
+                                        <span class="nav-main-link-name">Add Worker</span>
                                     </a>
-                                </li> -->
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">List Worker</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-main-heading">More</li>
