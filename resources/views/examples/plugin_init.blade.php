@@ -45,9 +45,7 @@
                 <h3 class="block-title">Plugin Example</h3>
             </div>
             <div class="block-content">
-                <p>
-                    This page showcases how easily you can add a plugin’s JS/CSS assets and init it using custom JS code.
-                </p>
+               
             </div>
         </div>
         <!-- END Info -->
@@ -55,7 +53,6 @@
         <!-- Dynamic Table Full -->
         <div class="block block-rounded block-bordered">
             <div class="block-header block-header-default">
-                <h3 class="block-title">Dynamic Table <small>Full</small></h3>
             </div>
             <div class="block-content block-content-full">
                 <!-- DataTables init on table by adding .js-dataTable-full class, functionality is initialized in js/pages/tables_datatables.js -->

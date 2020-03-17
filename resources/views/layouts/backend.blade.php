@@ -341,10 +341,170 @@
                             </ul>
                         </li>
 
-                        
+                        <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
+                                <i class="nav-main-link-icon si si-bulb"></i>
+                                <span class="nav-main-link-name">Kamay Service Requester</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-helper') ? ' active' : '' }}" href="/examples/plugin-helper">
+                                        <span class="nav-main-link-name">Add Requester</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">List Requester</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
-                       
+                        
+
+                        <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
+                                <i class="nav-main-link-icon si si-bulb"></i>
+                                <span class="nav-main-link-name">Kamay Vendor</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-helper') ? ' active' : '' }}" href="/examples/plugin-helper">
+                                        <span class="nav-main-link-name">Add Vendor</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">List Vendor</span>
+                                    </a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+
+                        <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Kamay Account Manager</span>
+                                    </a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+
+
+
+                            <li class="nav-main-heading">Accounts</li>
+
+                            <li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+                                <i class="nav-main-link-icon si si-noteook"></i>
+                                <span class="nav-main-link-name">Statement</span>
+                            </a>
+                          
+                        </li>
+                        <li class="nav-main-heading">Details</li>
+
+<li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+    <i class="nav-main-link-icon si si-noteook"></i>                                     <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+
+    <span class="nav-main-link-name">Map</span>
+</a>
+
+</li>
+<li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Rate & Reviews</span>
+                                    </a>
+                                </li>  <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Service Requests</span>
+                                    </a>
+                                </li>  <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Service Requests History</span>
+                                    </a>
+                                </li>  <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Scheduled Work</span>
+                                    </a>
+                                </li>
+                        </li>
+
+                        <li class="nav-main-heading">General</li>
+
+<li class="nav-main-item">
+    <i class="nav-main-link-icon si si-noteook"></i>
+    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+
+    <span class="nav-main-link-name">Service Types</span>
+</a>
+
+</li><li class="nav-main-item{{ request()->is('examples/*') ? ' open' : '' }}">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
+                                <i class="nav-main-link-icon si si-notebook"></i>
+                                <span class="nav-main-link-name">Documents</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-helper') ? ' active' : '' }}" href="/examples/plugin-helper">
+                                        <span class="nav-main-link-name">Add Documents</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">List Documents</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li> <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Promo Codes</span>
+                                    </a>
+                                </li>  
+                        </li>
+
+
+
+                        <li class="nav-main-heading">Payment Details</li>
+
+<li class="nav-main-item">
+    <i class="nav-main-link-icon si si-noteook"></i>
+    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+
+    <span class="nav-main-link-name">Payment History</span>
+</a>
+
+</li><li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Support</span>
+                                    </a>
+                                </li>  
+                        </li>
+
+
+                        <li class="nav-main-item">
+                                    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+                                        <span class="nav-main-link-name">Contact</span>
+                                    </a>
+                                </li>  
+                        </li>
+
+                        <li class="nav-main-heading">More</li>
+
+<li class="nav-main-item">
+    <i class="nav-main-link-icon si si-noteook"></i>
+    <a class="nav-main-link{{ request()->is('examples/plugin-init') ? ' active' : '' }}" href="/examples/plugin-init">
+
+    <span class="nav-main-link-name">Settings</span>
+</a>
+
+</li>
+
+
+<a class="nav-main-link" href="be_pages_dashboard_all.php">
+<i class="nav-main-link-icon si si-arrow-left"></i>
+<span class="nav-main-link-name">Go Back</span>
+</a>
+
+                       </ul>
                     </ul>
                 </div>
                 <!-- END Side Navigation -->
